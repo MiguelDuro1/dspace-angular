@@ -38,7 +38,7 @@ services:
       solr__P__server: http://dspacesolr:8983/solr
       # proxies.trusted.ipranges: This setting is required for a REST API running in Docker to trust requests 
       # from the host machine. This IP range MUST correspond to the 'dspacenet' subnet defined above.
-      proxies__P__trusted__P__ipranges: '172.23.0'
+      proxies__P__trusted__P__ipranges: '172.36.0'
     image: dspace/dspace:dspace-7_x-test
     depends_on:
     - dspacedb
