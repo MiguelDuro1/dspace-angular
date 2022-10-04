@@ -33,6 +33,8 @@ services:
     ports:
     - published: 4001
       target: 4001
+    - published: 4000
+      target: 4000
     - published: 9876
       target: 9876
     stdin_open: true
